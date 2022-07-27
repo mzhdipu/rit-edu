@@ -12,9 +12,10 @@ body{
     font-weight: 500;
 }
 /* SECTION TITLE STYLE  */
-.title-text{
-    margin-bottom: 50px;
-    line-height: 1.5em;
+.title h2{
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    font-size: 45px;
 }
 
 
