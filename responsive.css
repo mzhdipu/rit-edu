@@ -30,10 +30,10 @@
         width: 35%;
     }
 
-    .review-controler .carousel-control-prev {
+    /.review-controler .carousel-control-prev {
         display:none;
     }
-    .review-controler .carousel-control-next {
+    /.review-controler .carousel-control-next {
         display:none;
     }
 
@@ -55,5 +55,57 @@
     }
     .courses-recod p{
         font-size: 15px;
+    }
+}
+
+
+
+@media (min-width: 992px){
+    .carousel-item h5 {
+        font-size: 60px;
+        line-height: 1em;
+    }
+    .carousel {
+        margin-top: 125px;
+    }
+    .title {
+        width: 70%;
+    }
+    .title h2 {
+        font-size: 50px;
+    }
+    .see-all {
+        width: 23%;
+    }
+
+    .title h2 {
+        font-size: 45px;
+    }
+
+    .explore-title h2 {
+        font-size: 29px;
+    }
+    .courses-recod h3 {
+        font-size: 25px;
+    }
+    .ready-to-join {
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+}
+
+@media (min-width: 1200px){
+    .carousel-caption {
+        bottom: 100px;
+    }
+    .title {
+        width: 60%;
+    }
+    .explore-title {
+        width: 95%;
+    }
+    .explore-title h2 {
+        font-size: 45px;
     }
 }
