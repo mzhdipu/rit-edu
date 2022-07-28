@@ -12,6 +12,9 @@ body{
     font-weight: 500;
 }
 /* SECTION TITLE STYLE  */
+.title {
+    width: 50%;
+}
 .title h2{
     margin-bottom: 20px;
     line-height: 1.2em;
@@ -25,4 +28,38 @@ body{
 }
 .carousel-item h5{
     font-size: 75px;
+}
+
+/* EXPLORE SECTION START  */
+.explore{
+    background-color: #F4FAFD;
+}
+.explore-title {
+    width: 85%;
+}
+
+
+/* FEEDBACK SECTION START  */
+.reviewer-info img {
+    width: 60px;
+    height: 60px;
+}
+
+.review-controler .carousel-control-prev {
+    left: -8%;
+}
+.review-controler .carousel-control-next {
+    right: -8%;
+}
+
+/* FOOTER SECTION  */
+footer ul li{
+    list-style: none;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px){
+    
 }

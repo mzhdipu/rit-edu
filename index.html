@@ -24,7 +24,7 @@
 <body>
     <!-- HEADER SECTION START 
 ======================================================== -->
-    <header class="my-3">
+    <header class="py-3 fixed-top bg-white">
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-transparent">
                 <div class="container-fluid">
@@ -43,30 +43,45 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active fst-normal fs- mx-3" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active fst-normal fs- mx-3 text-capitalize" aria-current="page" href="#">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link fst-normal fs-6 mx-3" href="#">Link</a>
-                            </li>
+
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle fst-normal fs-6 mx-3" href="#" role="button"
+                                <a class="nav-link dropdown-toggle fst-normal fs-6 mx-3 text-capitalize" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
+                                    Courses
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item fw-normal fs-6" href="#">Action</a></li>
-                                    <li><a class="dropdown-item fw-normal fs-6" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item fw-normal fs-6" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item fw-normal text-secondary text-capitalize fw-normal" href="#">Web design</a></li>
+                                    <li><a class="dropdown-item fw-normal text-secondary text-capitalize fw-normal" href="#">web development</a></li>
+                                    <li><a class="dropdown-item fw-normal text-secondary text-capitalize fw-normal" href="#">JavaScript </a></li>
+                                    <li><a class="dropdown-item fw-normal text-secondary text-capitalize fw-normal" href="#">Graphic design </a></li>
+                                    <li><a class="dropdown-item fw-normal text-secondary text-capitalize fw-normal" href="#">UI/UX Design</a></li>
                                 </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link fst-normal fs-6 mx-3 text-capitalize" href="#">About </a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link fst-normal fs-6 mx-3 text-capitalize" href="#">Students </a>
+                            </li>
+
+                            
+                            <li class="nav-item">
+                                <a class="nav-link fst-normal fs-6 mx-3 text-capitalize" href="#">reviews </a>
+                            </li>
+
+                            
+                            <li class="nav-item">
+                                <a class="nav-link fst-normal fs-6 mx-3 text-capitalize" href="#">contact us </a>
                             </li>
                         </ul>
 
                         <!-- REGISTER NOW BUTTON  -->
                         <a href="#"
-                            class="btn btn-font border-primary text-primary link-primary fst-normal rounded-1 px-4">Register</a>
+                            class="btn btn-font border-primary text-primary link-primary fst-normal rounded-1 px-4" data-bs-toggle="modal" data-bs-target="#registatioModal">Register</a>
                     </div>
                 </div>
             </nav>
@@ -144,7 +159,7 @@
 ======================================================== -->
     <section class="py-5">
         <div class="container">
-            <div class="title w-50 m-auto text-center my-5">
+            <div class="title m-auto text-center my-5">
                 <h2 class="text-uppercase fw-bolder">Discover Our Popular Courses</h2>
                 <p class="text-secondary">It is a long established fact that a reader will be distracted by the readable
                     content of a page when looking at its layout.</p>
@@ -169,13 +184,13 @@
                     </div>
 
 
-                    <!-- COURSE (UI/UX Design) -->
+                    <!-- COURSE (FULLSTACK WEB DEVELOPMENT) -->
                     <div
                         class="course d-flex justify-content-between align-items-center border border-white shadow-lg rounded-3 my-3">
-                        <img class="img-fluid" src="images/course/course-1.png" alt="">
+                        <img class="img-fluid" src="images/course/course-2.png" alt="">
 
                         <div class="course-info px-4">
-                            <h3 class="fs-4 fw-semibold">Fundamental Of UI/UX Design</h3>
+                            <h3 class="fs-4 fw-semibold">Fullstack Web Development</h3>
                             <p class="text-secondary">Some quick example text to build on the card title and make up the
                                 bulk of the card.</p>
                             <p class="text-primary fw-bold fs-5">Price : 20$</p>
@@ -183,13 +198,13 @@
                     </div>
 
 
-                    <!-- COURSE (UI/UX Design) -->
+                    <!-- COURSE (PHOTOGRAPHY BASIC RULES) -->
                     <div
                         class="course d-flex justify-content-between align-items-center border border-white shadow-lg rounded-3 my-3">
-                        <img class="img-fluid" src="images/course/course-1.png" alt="">
+                        <img class="img-fluid" src="images/course/course-3.png" alt="">
 
                         <div class="course-info px-4">
-                            <h3 class="fs-4 fw-semibold">Fundamental Of UI/UX Design</h3>
+                            <h3 class="fs-4 fw-semibold">Photography Basic Rules</h3>
                             <p class="text-secondary">Some quick example text to build on the card title and make up the
                                 bulk of the card.</p>
                             <p class="text-primary fw-bold fs-5">Price : 20$</p>
@@ -199,39 +214,39 @@
 
                 <!-- PROPULAR COURSES RIGHT CONTENT  -->
                 <div class="col-md-6">
-                    <!-- COURSE (UI/UX Design) -->
+                    <!-- COURSE (JAVASCRIPT BASIC TO ADVANCED) -->
                     <div
                         class="course d-flex justify-content-between align-items-center border border-white shadow-lg rounded-3 my-3">
-                        <img class="img-fluid" src="images/course/course-1.png" alt="">
+                        <img class="img-fluid" src="images/course/course-4.png" alt="">
 
                         <div class="course-info px-4">
-                            <h3 class="fs-4 fw-semibold">Fundamental Of UI/UX Design</h3>
+                            <h3 class="fs-4 fw-semibold">Javascript Basic to advanced</h3>
                             <p class="text-secondary">Some quick example text to build on the card title and make up the
                                 bulk of the card.</p>
                             <p class="text-primary fw-bold fs-5">Price : 20$</p>
                         </div>
                     </div>
 
-                    <!-- COURSE (UI/UX Design) -->
+                    <!-- COURSE (DIGITAL MARKETING) -->
                     <div
                         class="course d-flex justify-content-between align-items-center border border-white shadow-lg rounded-3 my-3">
-                        <img class="img-fluid" src="images/course/course-1.png" alt="">
+                        <img class="img-fluid" src="images/course/course-5.png" alt="">
 
                         <div class="course-info px-4">
-                            <h3 class="fs-4 fw-semibold">Fundamental Of UI/UX Design</h3>
+                            <h3 class="fs-4 fw-semibold">Digital Marketing</h3>
                             <p class="text-secondary">Some quick example text to build on the card title and make up the
                                 bulk of the card.</p>
                             <p class="text-primary fw-bold fs-5">Price : 20$</p>
                         </div>
                     </div>
 
-                    <!-- COURSE (UI/UX Design) -->
+                    <!-- COURSE (MOTION GRAPHICS) -->
                     <div
                         class="course d-flex justify-content-between align-items-center border border-white shadow-lg rounded-3 my-3">
-                        <img class="img-fluid" src="images/course/course-1.png" alt="">
+                        <img class="img-fluid" src="images/course/course-6.png" alt="">
 
                         <div class="course-info px-4">
-                            <h3 class="fs-4 fw-semibold">Fundamental Of UI/UX Design</h3>
+                            <h3 class="fs-4 fw-semibold">Motion Graphics</h3>
                             <p class="text-secondary">Some quick example text to build on the card title and make up the
                                 bulk of the card.</p>
                             <p class="text-primary fw-bold fs-5">Price : 20$</p>
@@ -239,7 +254,7 @@
                     </div>
                 </div>
 
-                <a href="#" class="btn btn-font border-primary text-white bg-primary fst-normal rounded-1 py-3 w-25 m-auto my-5">See More Courses</a>
+                <a href="#" class="btn btn-font border-primary text-white bg-primary fst-normal rounded-1 py-3 m-auto my-5" style="width: 15%;">See More Courses</a>
             </div>
         </div>
     </section>
@@ -247,30 +262,423 @@
 
     <!-- EXPLORE SECTION START 
 ======================================================== -->
+<section class="explore my-5">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6">
+                <img class="img-fluid" src="images/Rectangle8.png" alt="">
+            </div>
+
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <div>
+                    <div class="title explore-title my-5">
+                        <h2 class="text-uppercase fw-bolder">Explore The elearning Institute</h2>
+                    </div>
+    
+                    <p class="text-secondary">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure</p>
+                    <p class="text-secondary">Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
+    
+                    <div class="d-flex my-4">
+
+                        <!-- ONLINE COURSES  -->
+                        <div class="conline-course text-center me-5">
+                            <h3 class="fw-bold text-uppercase">3.2k +</h3>
+                            <p class="text-capitalize">online course</p>
+                        </div>
+    
+                        <!-- EXPERT MEMBER  -->
+                        <div class="expert-member text-center me-5">
+                             <h3 class="fw-bold text-uppercase">600 +</h3>
+                            <p class="text-capitalize">Expert member</p>
+                        </div>
+    
+                        <!-- RATING & REVIEW  -->
+                        <div class="rating-review text-center me-5">
+                            <h3 class="fw-bold text-uppercase">1k +</h3>
+                            <p class="text-capitalize">rating & review</p>
+                        </div>
+                    </div>
+    
+                    <a href="#" class="btn btn-primary rounded-1 px-3">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
     <!-- READY TO JOIN SECTION START 
 ======================================================== -->
+<section class="py-5">
+    <div class="container">
+        <div class="row bg-primary rounded-3 p-5 shadow-lg">
+
+            <div class="col-md-6 d-flex justify-content-center mt-4">
+                <div>
+                    <h2 class="text-white mb-2">Ready to join?</h2>
+                <p class="text-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 d-flex justify-content-end align-items-center">
+                <div>
+                    <a href="#" class="btn btn-font border-primary text-primary bg-white fst-normal rounded-1 px-4 py-3" data-bs-toggle="modal" data-bs-target="#registatioModal">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- MODAL -->
+<div class="modal fade" id="registatioModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+
+            <!-- MODAL TITLE  -->
+          <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+            <!-- MODAL CONTENT  -->
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Save Password</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Register Now</button>
+              </form>
+
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
 
 
     <!-- MEET THE SUTDENT SECTION START 
 ======================================================== -->
+<section class="py-5">
+    <div class="container">
+        <div class="title my-5">
+            <h2 class="text-uppercase fw-bolder">Meet Our Successfull Students</h2>
+            <p class="text-secondary">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        </div>
 
+        <div class="row g-3">
+
+            <!-- STUDENT -01  -->
+            <div class="col-md-3">
+                <div class="border rounded-3 shadow-lg">
+
+                    <!-- STUDENT IMAGE  -->
+                    <img class="img-fluid" src="images/student/student-1.png" alt="">
+                    
+                    <!-- STUDENT INFO  -->
+                <div class="p-3">
+                    <h4 class="text-capitalize">mzhdipu</h4>
+                    <p class="text-secondary text-capitalize">UI/UX Designer</p>
+                </div>
+                </div>
+            </div>
+
+            <!-- STUDENT -02  -->
+            <div class="col-md-3">
+                <div class="border rounded-3 shadow-lg">
+
+                    <!-- STUDENT IMAGE  -->
+                    <img class="img-fluid" src="images/student/student-2.png" alt="">
+
+                    <!-- STUDENT INFO  -->
+                <div class="p-3">
+                    <h4 class="text-capitalize">mzhdipu</h4>
+                    <p class="text-secondary text-capitalize">UI/UX Designer</p>
+                </div>
+                </div>
+            </div>
+
+            <!-- STUDENT -03  -->
+            <div class="col-md-3">
+                <div class="border rounded-3 shadow-lg">
+
+                    <!-- STUDENT IMAGE  -->
+                    <img class="img-fluid" src="images/student/student-3.png" alt="">
+
+                    <!-- STUDENT INFO  -->
+                <div class="p-3">
+                    <h4 class="text-capitalize">mzhdipu</h4>
+                    <p class="text-secondary text-capitalize">UI/UX Designer</p>
+                </div>
+                </div>
+            </div>
+
+            <!-- STUDENT -04  -->
+            <div class="col-md-3">
+                <div class="border rounded-3 shadow-lg">
+
+                    <!-- STUDENT IMAGE  -->
+                    <img class="img-fluid" src="images/student/student-4.png" alt="">
+
+                    <!-- STUDENT INFO  -->
+                <div class="p-3">
+                    <h4 class="text-capitalize">mzhdipu</h4>
+                    <p class="text-secondary text-capitalize">UI/UX Designer</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- FEEDBACK SECTION START 
 ======================================================== -->
+<section>
+    <div class="container">
+        <div class="title m-auto text-center my-5">
+            <h2 class="text-uppercase fw-bolder">Some Students Feedback</h2>
+            <p class="text-secondary">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        </div>
+
+        <!-- REVIEW CAROUSEL START  -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              
+                <!-- CAROUSEL ITEM - 01 -->
+                <div class="carousel-item active">
+                    <div class="row g-5">
+    
+                        <div class="col-md-6">
+                            <div class="border rounded-3 py-2 px-4">
+                                <!-- QUOTE & RATING  -->
+                            <div class="d-flex justify-content-between my-4 p-3">
+                                <img class="img-fluid" src="images/comma.png" alt="">
+                                <div class="rating">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star-half text-warning"></i>
+                                </div>
+                            </div>
+    
+                            <!-- REVIEW TEXT  -->
+                            <p class="text-secondary">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+    
+                            <!-- REVIEWER DETAILS  -->
+                            <div class="d-flex reviewer-info align-items-center">
+                                <img class="img-fluid" src="images/student/student-5.png" alt="">
+                                <div class="p-3">
+                                    <h4 class="fw-bold">mzhdipu</h4>
+                                    <p class="text-secondary">UI Designer</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <div class="border rounded-3 py-2 px-4">
+                                <!-- QUOTE & RATING  -->
+                            <div class="d-flex justify-content-between my-4 p-3">
+                                <img class="img-fluid" src="images/comma.png" alt="">
+                                <div class="rating">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star-half text-warning"></i>
+                                </div>
+                            </div>
+    
+                            <!-- REVIEW TEXT  -->
+                            <p class="text-secondary">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+    
+                            <!-- REVIEWER DETAILS  -->
+                            <div class="d-flex reviewer-info align-items-center">
+                                <img class="img-fluid" src="images/student/student-5.png" alt="">
+                                <div class="p-3">
+                                    <h4 class="fw-bold">mzhdipu</h4>
+                                    <p class="text-secondary">UI Designer</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                  </div>
+              
+              
+            </div>
+
+            <!-- CONTRLER BUTTONG  -->
+            <div class="review-controler">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-primary rounded-circle p-3" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-primary rounded-circle p-3" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
+          </div>
+
+          
+    </div>
+</section>
 
 
     <!-- FAQ SECTION START 
 ======================================================== -->
+<section class="py-5">
+    <div class="container">
+
+        <div class="title m-auto text-center my-5">
+            <h2 class="text-uppercase fw-bolder">Frequently Asked Questions</h2>
+            <p class="text-secondary">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout./p>
+        </div>
+
+        <div class="row">
+            
+            <div class="w-75 m-auto accordion" id="accordionExample">
+                <div class="accordion-item shadow-lg">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
 
 
     <!-- CLIENTS SECTION START 
 ======================================================== -->
+<section class="py-5">
+    <div class="container">
+
+        <div class="title m-auto text-center my-5">
+            <h2 class="text-uppercase fw-bolder">Trusted by over 800+ companies</h2>
+            <p class="text-secondary">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout./p>
+        </div>
+
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-2">
+                <a href="#">
+                    <img src="images//company/company-1.png" alt="" class="img">
+                </a>
+            </div>
+
+            <div class="col-md-2">
+                <a href="#">
+                    <img src="images//company/company-2.png" alt="" class="img">
+                </a>
+            </div>
+
+            <div class="col-md-2">
+                <a href="#">
+                    <img src="images//company/company-3.png" alt="" class="img">
+                </a>
+            </div>
+
+            <div class="col-md-2">
+                <a href="#">
+                    <img src="images//company/company-4.png" alt="" class="img">
+                </a>
+            </div>
+
+            <div class="col-md-2">
+                <a href="#">
+                    <img src="images//company/company-5.png" alt="" class="img">
+                </a>
+            </div>
+
+            <div class="col-md-2">
+                <a href="#">
+                    <img src="images//company/company-6.png" alt="" class="img">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
 
     <!-- FOOTER SECTION START 
 ======================================================== -->
+<footer class="bg-black py-5">
+    <div class="container text-white text-center">
+        <a class="text-decoration-none" href="#"><h3 class="text-white">RIT-edu</h3></a>
+        <p>Office 41, Zawaya Buildin, Ghala Muscat, <span class="d-block">Sultanate of Oman</span></p>
+
+        <ul class="d-flex justify-content-center">
+            <li class="mx-2"><a class="text-white text-decoration-none border-end pe-3" href="#">Privacy Ploicy</a></li>
+            <li class="mx-2"><a class="text-white text-decoration-none" href="#">Terms of use</a></li>
+        </ul>
+
+        <ul class="d-flex justify-content-center">
+            <li class="mx-2"><a class="text-white text-decoration-none" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="mx-2"><a class="text-white text-decoration-none" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="mx-2"><a class="text-white text-decoration-none" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="mx-2"><a class="text-white text-decoration-none" href="#"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+    </div>
+</footer>
+
+
 
 
 
@@ -281,3 +689,4 @@
 </body>
 
 </html>
+
