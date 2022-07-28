@@ -1,6 +1,9 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px){
+    .course-img{
+        width: 100%;
+    }
     p {
         font-size: 16px;
         line-height: 1.2;
@@ -16,7 +19,7 @@
     }
     .btn-font {
         font-size: 14px;
-        padding: 10px !important;
+        padding: 10px;
     }
 
     .title {
@@ -29,15 +32,6 @@
     .see-all{
         width: 35%;
     }
-
-    /.review-controler .carousel-control-prev {
-        display:none;
-    }
-    /.review-controler .carousel-control-next {
-        display:none;
-    }
-
-
     .faq{
         width: 100%;
     }
@@ -47,6 +41,25 @@
 }
 
 @media (min-width: 768px){
+    .title {
+        width: 70%;
+    }
+    .title h2 {
+        font-size: 35px;
+    }
+    .explore-title{
+        width: 90%;
+    }
+    .explore-title h2{
+        font-size: 27px
+    }
+    .course-img {
+        width: 60%;
+    }
+    .carousel-item h5 {
+        font-size: 50px;
+        line-height: 1em;
+    }
     .carousel-item h5 {
         font-size: 50px;
     }
@@ -56,11 +69,20 @@
     .courses-recod p{
         font-size: 15px;
     }
+    .ready-to-join {
+        font-size: 45px;
+    }
+    .faq {
+        width: 90%;
+    }
 }
 
 
 
 @media (min-width: 992px){
+    .course-img {
+        width: 100%;
+    }
     .carousel-item h5 {
         font-size: 60px;
         line-height: 1em;
@@ -92,10 +114,16 @@
         font-size: 55px;
         font-weight: bold;
     }
+    .faq {
+        width: 80%;
+    }
 
 }
 
 @media (min-width: 1200px){
+    .course-img{
+        width: 70%;
+    }
     .carousel-caption {
         bottom: 100px;
     }
@@ -107,5 +135,30 @@
     }
     .explore-title h2 {
         font-size: 45px;
+    }
+    .faq {
+        width: 80%;
+    }
+}
+
+
+@media (min-width: 1400px){
+    p {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .carousel-item h5 {
+        font-size: 60px;
+        line-height: 1em;
+        margin-bottom: 20px;
+    }
+    .title {
+        width: 55%;
+    }
+    .explore-title {
+        width: 85%;
+    }
+    .courses-recod h3 {
+        font-size: 35px;
     }
 }
